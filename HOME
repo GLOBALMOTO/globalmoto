@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Ricambi Moto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Store Ricambi Moto</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Prodotti</a></li>
+                <li><a href="#">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Prodotti in evidenza</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="images/prod1.jpg" alt="Ricambio 1">
+                <h3>Filtro Aria Moto</h3>
+                <p>€30,00</p>
+                <button onclick="addToCart('Filtro Aria Moto', 30)">Aggiungi al carrello</button>
+            </div>
+            <div class="product-item">
+                <img src="images/prod2.jpg" alt="Ricambio 2">
+                <h3>Catena Moto</h3>
+                <p>€45,00</p>
+                <button onclick="addToCart('Catena Moto', 45)">Aggiungi al carrello</button>
+            </div>
+            <!-- Aggiungi altri prodotti qui -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Store Ricambi Moto</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
